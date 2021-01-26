@@ -21,6 +21,11 @@ textarea{
   border-bottom: 10px solid black;
 }
 
+.time-container {
+  padding: 25px;
+}
+
+
 .description{
   white-space: pre-wrap;
 }
