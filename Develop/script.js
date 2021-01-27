@@ -9,7 +9,7 @@ $(document).ready(function() {
  $("#currentDay").text(moment().format('MMMM Do YYYY'));
 
     //function to change color of planner based on current time
- $(".description").each(function() {
+ $(".input").each(function() {
     var scheduledTime = parseInt($(this).attr("id"));
 
     if (scheduledTime < currentTime) {
