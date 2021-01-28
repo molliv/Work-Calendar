@@ -1,7 +1,7 @@
 # Work-Calendar
 
 ## Deployment
-
+https://molliv.github.io/Work-Calendar/
 
 ## User Story
 AS AN employee with a busy schedule
@@ -24,3 +24,5 @@ WHEN I refresh the page
 THEN the saved events persist
 
 ## Mock-Up
+
+![Screen Shot 2021-01-28 at 2 52 49 PM](https://user-images.githubusercontent.com/74150118/106208671-9218ca00-6178-11eb-8872-b9351249aa80.png)
