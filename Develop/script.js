@@ -24,7 +24,8 @@ $(document).ready(function() {
     //Save button functionality and to local storage
  $(".saveBtn").click(function(){
     userText = $(this).siblings(".input").val();
-    eventTime = $(this).siblings(".hour").text();        localStorage.setItem(eventTime, JSON.stringify(userText));
+    eventTime = $(this).siblings(".hour").text();        
+    localStorage.setItem(eventTime, JSON.stringify(userText));
     console.log(eventTime);
     console.log(userText);
  });
