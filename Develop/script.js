@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-// variables
+    // variables
  var userText;
  var eventTime;
  var currentTime = moment().hour();
@@ -23,12 +23,17 @@ $(document).ready(function() {
 
     //Save button functionality and to local storage
  $(".saveBtn").click(function(){
-    userText = $(this).siblings(".description").val();
+    userText = $(this).siblings(".input").val();
     eventTime = $(this).siblings(".hour").text();        localStorage.setItem(eventTime, JSON.stringify(userText));
     console.log(eventTime);
     console.log(userText);
  });
 
+ // delete button function
+ $(".deleteBtn").click(function(){
+    $("textarea").val("");
+    localStorage.clear();
+ });
 
 });
 
